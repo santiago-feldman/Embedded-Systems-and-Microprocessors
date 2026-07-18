@@ -1,0 +1,33 @@
+# Archivos generados por MCUXpresso
+/**/.metadata/
+/**/Debug/
+/**/Release/
+/**/Objects/
+
+
+# Archivos generados por el compilador
+*.o
+*.d
+*.su
+*.suo
+*.axf
+*.bin
+*.map
+*.hex
+*.xml
+
+# Archivos de configuración de MCUXpresso
+MCUXpressoIDE.ini
+
+# Archivos temporales y de caché
+*.log
+*.swp
+/.cache/
+/.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del usuario
+/.vscode/

@@ -1,0 +1,1200 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./source/Acelerometro.o
+ .group         0x00000000        0xc ./source/Acelerometro.o
+ .group         0x00000000        0xc ./source/Acelerometro.o
+ .text          0x00000000        0x0 ./source/Acelerometro.o
+ .data          0x00000000        0x0 ./source/Acelerometro.o
+ .bss           0x00000000        0x0 ./source/Acelerometro.o
+ .debug_info    0x00000000       0x68 ./source/Acelerometro.o
+ .debug_abbrev  0x00000000       0x29 ./source/Acelerometro.o
+ .debug_aranges
+                0x00000000       0x18 ./source/Acelerometro.o
+ .debug_macro   0x00000000       0x37 ./source/Acelerometro.o
+ .debug_macro   0x00000000      0xa5a ./source/Acelerometro.o
+ .debug_macro   0x00000000       0x22 ./source/Acelerometro.o
+ .debug_macro   0x00000000      0x34e ./source/Acelerometro.o
+ .debug_line    0x00000000       0xc2 ./source/Acelerometro.o
+ .debug_str     0x00000000     0x3873 ./source/Acelerometro.o
+ .comment       0x00000000       0x7f ./source/Acelerometro.o
+ .ARM.attributes
+                0x00000000       0x39 ./source/Acelerometro.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .group         0x00000000        0xc ./source/App.o
+ .text          0x00000000        0x0 ./source/App.o
+ .data          0x00000000        0x0 ./source/App.o
+ .bss           0x00000000        0x0 ./source/App.o
+ .debug_macro   0x00000000      0xa5a ./source/App.o
+ .debug_macro   0x00000000      0x34e ./source/App.o
+ .debug_macro   0x00000000       0x22 ./source/App.o
+ .group         0x00000000        0xc ./source/Magnetometro.o
+ .group         0x00000000        0xc ./source/Magnetometro.o
+ .group         0x00000000        0xc ./source/Magnetometro.o
+ .text          0x00000000        0x0 ./source/Magnetometro.o
+ .data          0x00000000        0x0 ./source/Magnetometro.o
+ .bss           0x00000000        0x0 ./source/Magnetometro.o
+ .debug_info    0x00000000       0x68 ./source/Magnetometro.o
+ .debug_abbrev  0x00000000       0x29 ./source/Magnetometro.o
+ .debug_aranges
+                0x00000000       0x18 ./source/Magnetometro.o
+ .debug_macro   0x00000000       0x37 ./source/Magnetometro.o
+ .debug_macro   0x00000000      0xa5a ./source/Magnetometro.o
+ .debug_macro   0x00000000       0x22 ./source/Magnetometro.o
+ .debug_macro   0x00000000      0x34e ./source/Magnetometro.o
+ .debug_line    0x00000000       0xc2 ./source/Magnetometro.o
+ .debug_str     0x00000000     0x3873 ./source/Magnetometro.o
+ .comment       0x00000000       0x7f ./source/Magnetometro.o
+ .ARM.attributes
+                0x00000000       0x39 ./source/Magnetometro.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .group         0x00000000        0xc ./source/Queue.o
+ .text          0x00000000        0x0 ./source/Queue.o
+ .data          0x00000000        0x0 ./source/Queue.o
+ .bss           0x00000000        0x0 ./source/Queue.o
+ .text.pop      0x00000000       0x7e ./source/Queue.o
+ .text.getNextArray
+                0x00000000       0x5a ./source/Queue.o
+ .debug_macro   0x00000000      0xa5a ./source/Queue.o
+ .debug_macro   0x00000000       0x22 ./source/Queue.o
+ .debug_macro   0x00000000      0x34e ./source/Queue.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .group         0x00000000        0xc ./source/gpio.o
+ .text          0x00000000        0x0 ./source/gpio.o
+ .data          0x00000000        0x0 ./source/gpio.o
+ .bss           0x00000000        0x0 ./source/gpio.o
+ .text.__NVIC_EnableIRQ
+                0x00000000       0x3c ./source/gpio.o
+ .text.gpioMode
+                0x00000000      0x1d2 ./source/gpio.o
+ .text.gpioRead
+                0x00000000       0x48 ./source/gpio.o
+ .text.gpioToggle
+                0x00000000       0x42 ./source/gpio.o
+ .text.gpioWrite
+                0x00000000       0x46 ./source/gpio.o
+ .text.gpioIRQ  0x00000000      0x120 ./source/gpio.o
+ .debug_macro   0x00000000      0xa5a ./source/gpio.o
+ .debug_macro   0x00000000      0x34e ./source/gpio.o
+ .debug_macro   0x00000000       0x22 ./source/gpio.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .group         0x00000000        0xc ./source/spi.o
+ .text          0x00000000        0x0 ./source/spi.o
+ .data          0x00000000        0x0 ./source/spi.o
+ .bss           0x00000000        0x0 ./source/spi.o
+ .rodata.PORTs  0x00000000       0x14 ./source/spi.o
+ .text.spiIsRxMsg
+                0x00000000       0x20 ./source/spi.o
+ .text.spiGetRxMsgLength
+                0x00000000       0x14 ./source/spi.o
+ .text.spiReadMsg
+                0x00000000       0x24 ./source/spi.o
+ .debug_macro   0x00000000      0xa5a ./source/spi.o
+ .debug_macro   0x00000000      0x34e ./source/spi.o
+ .debug_macro   0x00000000       0x22 ./source/spi.o
+ .debug_macro   0x00000000       0x5c ./source/spi.o
+ .debug_macro   0x00000000       0x1c ./source/spi.o
+ .debug_macro   0x00000000       0x22 ./source/spi.o
+ .debug_macro   0x00000000       0xdf ./source/spi.o
+ .debug_macro   0x00000000      0xecf ./source/spi.o
+ .debug_macro   0x00000000       0x48 ./source/spi.o
+ .debug_macro   0x00000000     0xe07b ./source/spi.o
+ .debug_macro   0x00000000       0x52 ./source/spi.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .group         0x00000000        0xc ./source/uart.o
+ .text          0x00000000        0x0 ./source/uart.o
+ .data          0x00000000        0x0 ./source/uart.o
+ .bss           0x00000000        0x0 ./source/uart.o
+ .text.uartWriteMsg
+                0x00000000       0x6c ./source/uart.o
+ .text.uartReadMsg
+                0x00000000       0x5c ./source/uart.o
+ .text.uartIsRxMsg
+                0x00000000       0x38 ./source/uart.o
+ .text.uartGetRxMsgLength
+                0x00000000       0x30 ./source/uart.o
+ .debug_macro   0x00000000      0xa5a ./source/uart.o
+ .debug_macro   0x00000000      0x34e ./source/uart.o
+ .debug_macro   0x00000000       0x22 ./source/uart.o
+ .debug_macro   0x00000000       0x5c ./source/uart.o
+ .debug_macro   0x00000000       0x1c ./source/uart.o
+ .debug_macro   0x00000000       0x22 ./source/uart.o
+ .debug_macro   0x00000000       0xdf ./source/uart.o
+ .debug_macro   0x00000000      0xecf ./source/uart.o
+ .debug_macro   0x00000000       0x48 ./source/uart.o
+ .debug_macro   0x00000000     0xe07b ./source/uart.o
+ .debug_macro   0x00000000       0x10 ./source/uart.o
+ .debug_macro   0x00000000     0x122b ./source/uart.o
+ .debug_macro   0x00000000       0x16 ./source/uart.o
+ .debug_macro   0x00000000       0x52 ./source/uart.o
+ .debug_macro   0x00000000       0x58 ./source/uart.o
+ .debug_macro   0x00000000       0x10 ./source/uart.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/hardware.o
+ .text          0x00000000        0x0 ./SDK/startup/hardware.o
+ .data          0x00000000        0x0 ./SDK/startup/hardware.o
+ .bss           0x00000000        0x0 ./SDK/startup/hardware.o
+ .debug_macro   0x00000000      0xa5a ./SDK/startup/hardware.o
+ .debug_macro   0x00000000      0x34e ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x22 ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x10 ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x5c ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x1c ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x22 ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0xdf ./SDK/startup/hardware.o
+ .debug_macro   0x00000000      0xecf ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x48 ./SDK/startup/hardware.o
+ .debug_macro   0x00000000     0xe07b ./SDK/startup/hardware.o
+ .debug_macro   0x00000000     0x122b ./SDK/startup/hardware.o
+ .debug_macro   0x00000000       0x16 ./SDK/startup/hardware.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/main.o
+ .text          0x00000000        0x0 ./SDK/startup/main.o
+ .data          0x00000000        0x0 ./SDK/startup/main.o
+ .bss           0x00000000        0x0 ./SDK/startup/main.o
+ .debug_macro   0x00000000      0xa5a ./SDK/startup/main.o
+ .debug_macro   0x00000000      0x34e ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x22 ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x10 ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x5c ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x1c ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x22 ./SDK/startup/main.o
+ .debug_macro   0x00000000       0xdf ./SDK/startup/main.o
+ .debug_macro   0x00000000      0xecf ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x48 ./SDK/startup/main.o
+ .debug_macro   0x00000000     0xe07b ./SDK/startup/main.o
+ .debug_macro   0x00000000     0x122b ./SDK/startup/main.o
+ .debug_macro   0x00000000       0x16 ./SDK/startup/main.o
+ .group         0x00000000        0xc ./SDK/startup/semihost_hardfault.o
+ .text          0x00000000        0x0 ./SDK/startup/semihost_hardfault.o
+ .data          0x00000000        0x0 ./SDK/startup/semihost_hardfault.o
+ .bss           0x00000000        0x0 ./SDK/startup/semihost_hardfault.o
+ .debug_macro   0x00000000      0xa5a ./SDK/startup/semihost_hardfault.o
+ .group         0x00000000        0xc ./SDK/startup/startup_mk64f12.o
+ .text          0x00000000        0x0 ./SDK/startup/startup_mk64f12.o
+ .data          0x00000000        0x0 ./SDK/startup/startup_mk64f12.o
+ .bss           0x00000000        0x0 ./SDK/startup/startup_mk64f12.o
+ .text.SPI0_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.UART0_RX_TX_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.UART1_RX_TX_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.UART2_RX_TX_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.UART3_RX_TX_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.PORTA_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.PORTB_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.PORTC_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.PORTD_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.PORTE_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .text.UART4_RX_TX_IRQHandler
+                0x00000000        0x8 ./SDK/startup/startup_mk64f12.o
+ .debug_macro   0x00000000      0xa5a ./SDK/startup/startup_mk64f12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .group         0x00000000        0xc ./SDK/CMSIS/system_MK64F12.o
+ .text          0x00000000        0x0 ./SDK/CMSIS/system_MK64F12.o
+ .data          0x00000000        0x0 ./SDK/CMSIS/system_MK64F12.o
+ .bss           0x00000000        0x0 ./SDK/CMSIS/system_MK64F12.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./SDK/CMSIS/system_MK64F12.o
+ .text.SystemCoreClockUpdate
+                0x00000000      0x278 ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000      0xa5a ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000      0x34e ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0x10 ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0x5c ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0x1c ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0x22 ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0xdf ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000      0xecf ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000       0x48 ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000     0xe07b ./SDK/CMSIS/system_MK64F12.o
+ .debug_macro   0x00000000     0x122b ./SDK/CMSIS/system_MK64F12.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+PROGRAM_FLASH    0x00000000         0x00100000         xr
+SRAM_UPPER       0x20000000         0x00030000         xrw
+SRAM_LOWER       0x1fff0000         0x00010000         xrw
+FLEX_RAM         0x14000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./source/Acelerometro.o
+LOAD ./source/App.o
+LOAD ./source/Magnetometro.o
+LOAD ./source/Queue.o
+LOAD ./source/gpio.o
+LOAD ./source/spi.o
+LOAD ./source/uart.o
+LOAD ./SDK/startup/hardware.o
+LOAD ./SDK/startup/main.o
+LOAD ./SDK/startup/semihost_hardfault.o
+LOAD ./SDK/startup/startup_mk64f12.o
+LOAD ./SDK/CMSIS/system_MK64F12.o
+START GROUP
+LOAD c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m/fpv4-sp/hard\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_PROGRAM_FLASH = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00100000                __top_PROGRAM_FLASH = 0x100000
+                0x00100000                __top_Flash = 0x100000
+                0x20000000                __base_SRAM_UPPER = 0x20000000
+                0x20000000                __base_RAM = 0x20000000
+                0x20030000                __top_SRAM_UPPER = 0x20030000
+                0x20030000                __top_RAM = 0x20030000
+                0x1fff0000                __base_SRAM_LOWER = 0x1fff0000
+                0x1fff0000                __base_RAM2 = 0x1fff0000
+                0x20000000                __top_SRAM_LOWER = 0x20000000
+                0x20000000                __top_RAM2 = 0x20000000
+                0x14000000                __base_FLEX_RAM = 0x14000000
+                0x14000000                __base_RAM3 = 0x14000000
+                0x14001000                __top_FLEX_RAM = 0x14001000
+                0x14001000                __top_RAM3 = 0x14001000
+
+.text           0x00000000     0x1870
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(SORT_BY_ALIGNMENT(.isr_vector))
+ .isr_vector    0x00000000      0x198 ./SDK/startup/startup_mk64f12.o
+                0x00000000                g_pfnVectors
+                0x00000000                __Vectors
+                0x00000198                . = ALIGN (0x4)
+                0x00000198                __section_table_start = .
+                0x00000198                __data_section_table = .
+                0x00000198        0x4 LONG 0x1870 LOADADDR (.data)
+                0x0000019c        0x4 LONG 0x20000000 ADDR (.data)
+                0x000001a0        0x4 LONG 0x17c0 SIZEOF (.data)
+                0x000001a4        0x4 LONG 0x1870 LOADADDR (.data_RAM2)
+                0x000001a8        0x4 LONG 0x1fff0000 ADDR (.data_RAM2)
+                0x000001ac        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000001b0        0x4 LONG 0x1870 LOADADDR (.data_RAM3)
+                0x000001b4        0x4 LONG 0x14000000 ADDR (.data_RAM3)
+                0x000001b8        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x000001bc                __data_section_table_end = .
+                0x000001bc                __bss_section_table = .
+                0x000001bc        0x4 LONG 0x200017c0 ADDR (.bss)
+                0x000001c0        0x4 LONG 0x290 SIZEOF (.bss)
+                0x000001c4        0x4 LONG 0x1fff0000 ADDR (.bss_RAM2)
+                0x000001c8        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000001cc        0x4 LONG 0x14000000 ADDR (.bss_RAM3)
+                0x000001d0        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x000001d4                __bss_section_table_end = .
+                0x000001d4                __section_table_end = .
+ *(SORT_BY_ALIGNMENT(.after_vectors*))
+ .after_vectors.reset
+                0x000001d4       0x4c ./SDK/startup/startup_mk64f12.o
+                0x000001d4                ResetISR
+ .after_vectors.init_data
+                0x00000220       0x1e ./SDK/startup/startup_mk64f12.o
+                0x00000220                data_init
+ .after_vectors.init_bss
+                0x0000023e       0x12 ./SDK/startup/startup_mk64f12.o
+                0x0000023e                bss_init
+ .after_vectors
+                0x00000250       0x14 ./SDK/startup/startup_mk64f12.o
+                0x00000250                NMI_Handler
+                0x00000254                MemManage_Handler
+                0x00000256                BusFault_Handler
+                0x00000258                UsageFault_Handler
+                0x0000025a                SVC_Handler
+                0x0000025c                DebugMon_Handler
+                0x0000025e                PendSV_Handler
+                0x00000260                SysTick_Handler
+                0x00000262                DMA_Error_DriverIRQHandler
+                0x00000262                LPTMR0_DriverIRQHandler
+                0x00000262                FTM1_DriverIRQHandler
+                0x00000262                FTM2_DriverIRQHandler
+                0x00000262                PIT2_DriverIRQHandler
+                0x00000262                SDHC_DriverIRQHandler
+                0x00000262                I2S0_Tx_DriverIRQHandler
+                0x00000262                RTC_Seconds_DriverIRQHandler
+                0x00000262                DMA6_DriverIRQHandler
+                0x00000262                LLWU_DriverIRQHandler
+                0x00000262                MCM_DriverIRQHandler
+                0x00000262                MCG_DriverIRQHandler
+                0x00000262                ENET_1588_Timer_DriverIRQHandler
+                0x00000262                I2C2_DriverIRQHandler
+                0x00000262                DAC1_DriverIRQHandler
+                0x00000262                SPI1_DriverIRQHandler
+                0x00000262                CMP1_DriverIRQHandler
+                0x00000262                UART5_RX_TX_DriverIRQHandler
+                0x00000262                FTM0_DriverIRQHandler
+                0x00000262                IntDefaultHandler
+                0x00000262                USB0_DriverIRQHandler
+                0x00000262                UART5_ERR_DriverIRQHandler
+                0x00000262                PORTC_DriverIRQHandler
+                0x00000262                DMA11_DriverIRQHandler
+                0x00000262                DAC0_DriverIRQHandler
+                0x00000262                DMA10_DriverIRQHandler
+                0x00000262                CMP2_DriverIRQHandler
+                0x00000262                UART2_ERR_DriverIRQHandler
+                0x00000262                SPI2_DriverIRQHandler
+                0x00000262                LVD_LVW_DriverIRQHandler
+                0x00000262                PIT0_DriverIRQHandler
+                0x00000262                RNG_DriverIRQHandler
+                0x00000262                DMA12_DriverIRQHandler
+                0x00000262                DMA4_DriverIRQHandler
+                0x00000262                UART2_RX_TX_DriverIRQHandler
+                0x00000262                USBDCD_DriverIRQHandler
+                0x00000262                UART3_ERR_DriverIRQHandler
+                0x00000262                DMA3_DriverIRQHandler
+                0x00000262                DMA8_DriverIRQHandler
+                0x00000262                DMA9_DriverIRQHandler
+                0x00000262                UART0_ERR_DriverIRQHandler
+                0x00000262                CMT_DriverIRQHandler
+                0x00000262                Reserved71_DriverIRQHandler
+                0x00000262                ADC1_DriverIRQHandler
+                0x00000262                PORTA_DriverIRQHandler
+                0x00000262                DMA14_DriverIRQHandler
+                0x00000262                PIT3_DriverIRQHandler
+                0x00000262                PIT1_DriverIRQHandler
+                0x00000262                WDOG_EWM_DriverIRQHandler
+                0x00000262                PDB0_DriverIRQHandler
+                0x00000262                RTC_DriverIRQHandler
+                0x00000262                I2S0_Rx_DriverIRQHandler
+                0x00000262                Read_Collision_DriverIRQHandler
+                0x00000262                SWI_DriverIRQHandler
+                0x00000262                UART4_RX_TX_DriverIRQHandler
+                0x00000262                UART4_ERR_DriverIRQHandler
+                0x00000262                PORTB_DriverIRQHandler
+                0x00000262                UART0_LON_DriverIRQHandler
+                0x00000262                DMA0_DriverIRQHandler
+                0x00000262                DMA1_DriverIRQHandler
+                0x00000262                I2C1_DriverIRQHandler
+                0x00000262                UART3_RX_TX_DriverIRQHandler
+                0x00000262                ENET_Receive_DriverIRQHandler
+                0x00000262                DMA13_DriverIRQHandler
+                0x00000262                ENET_Error_DriverIRQHandler
+                0x00000262                DMA15_DriverIRQHandler
+                0x00000262                UART0_RX_TX_DriverIRQHandler
+                0x00000262                SPI0_DriverIRQHandler
+                0x00000262                ADC0_DriverIRQHandler
+                0x00000262                CMP0_DriverIRQHandler
+                0x00000262                CAN0_DriverIRQHandler
+                0x00000262                FTM3_DriverIRQHandler
+                0x00000262                DMA5_DriverIRQHandler
+                0x00000262                UART1_ERR_DriverIRQHandler
+                0x00000262                DMA2_DriverIRQHandler
+                0x00000262                ENET_Transmit_DriverIRQHandler
+                0x00000262                PORTD_DriverIRQHandler
+                0x00000262                PORTE_DriverIRQHandler
+                0x00000262                FTFE_DriverIRQHandler
+                0x00000262                I2C0_DriverIRQHandler
+                0x00000262                DMA7_DriverIRQHandler
+                0x00000262                UART1_RX_TX_DriverIRQHandler
+                0x00000400                . = 0x400
+ *fill*         0x00000264      0x19c ff
+                0x00000400                PROVIDE (__FLASH_CONFIG_START__, .)
+ *(SORT_BY_ALIGNMENT(.FlashConfig))
+ .FlashConfig   0x00000400       0x10 ./SDK/startup/startup_mk64f12.o
+                0x00000400                Flash_Config
+                0x00000410                PROVIDE (__FLASH_CONFIG_END__, .)
+                0x00000001                ASSERT (! ((__FLASH_CONFIG_START__ == __FLASH_CONFIG_END__)), Linker Flash Config Support Enabled, but no .FlashConfig section provided within application)
+ *(SORT_BY_ALIGNMENT(.text*))
+ .text.App_Init
+                0x00000410       0x24 ./source/App.o
+                0x00000410                App_Init
+ .text.App_Run  0x00000434       0x14 ./source/App.o
+                0x00000434                App_Run
+ .text.PORTA_IRQHandler
+                0x00000448       0xe8 ./source/gpio.o
+                0x00000448                PORTA_IRQHandler
+ .text.PORTB_IRQHandler
+                0x00000530       0xe8 ./source/gpio.o
+                0x00000530                PORTB_IRQHandler
+ .text.PORTC_IRQHandler
+                0x00000618       0xe8 ./source/gpio.o
+                0x00000618                PORTC_IRQHandler
+ .text.PORTD_IRQHandler
+                0x00000700       0xe8 ./source/gpio.o
+                0x00000700                PORTD_IRQHandler
+ .text.PORTE_IRQHandler
+                0x000007e8       0xe8 ./source/gpio.o
+                0x000007e8                PORTE_IRQHandler
+ .text.__NVIC_EnableIRQ
+                0x000008d0       0x3c ./source/spi.o
+ .text.spiInit  0x0000090c      0x108 ./source/spi.o
+                0x0000090c                spiInit
+ .text.spiWriteMsg
+                0x00000a14       0x3c ./source/spi.o
+                0x00000a14                spiWriteMsg
+ .text.SPI0_IRQHandler
+                0x00000a50       0xa8 ./source/spi.o
+                0x00000a50                SPI0_IRQHandler
+ .text.setSPIBaudrate
+                0x00000af8       0x38 ./source/spi.o
+ .text.__NVIC_EnableIRQ
+                0x00000b30       0x3c ./source/uart.o
+ .text.uartInit
+                0x00000b6c      0x1e8 ./source/uart.o
+                0x00000b6c                uartInit
+ .text.writeTXdata_CB
+                0x00000d54       0x54 ./source/uart.o
+ .text.setTxInterrupt
+                0x00000da8       0x50 ./source/uart.o
+ .text.readRXdata_CB
+                0x00000df8       0x58 ./source/uart.o
+ .text.setRxInterrupt
+                0x00000e50       0x54 ./source/uart.o
+ .text.UART0_RX_TX_IRQHandler
+                0x00000ea4       0x8c ./source/uart.o
+                0x00000ea4                UART0_RX_TX_IRQHandler
+ .text.UART1_RX_TX_IRQHandler
+                0x00000f30       0x8c ./source/uart.o
+                0x00000f30                UART1_RX_TX_IRQHandler
+ .text.UART2_RX_TX_IRQHandler
+                0x00000fbc       0x8c ./source/uart.o
+                0x00000fbc                UART2_RX_TX_IRQHandler
+ .text.UART3_RX_TX_IRQHandler
+                0x00001048       0x8c ./source/uart.o
+                0x00001048                UART3_RX_TX_IRQHandler
+ .text.UART4_RX_TX_IRQHandler
+                0x000010d4       0x8c ./source/uart.o
+                0x000010d4                UART4_RX_TX_IRQHandler
+ .text.SetUARTBaudrate
+                0x00001160       0xb8 ./source/uart.o
+ .text.hw_Init  0x00001218      0x10c ./SDK/startup/hardware.o
+                0x00001218                hw_Init
+ .text.hw_EnableInterrupts
+                0x00001324       0x30 ./SDK/startup/hardware.o
+                0x00001324                hw_EnableInterrupts
+ .text.hw_DisableInterrupts
+                0x00001354       0x20 ./SDK/startup/hardware.o
+                0x00001354                hw_DisableInterrupts
+ .text.SystemInit
+                0x00001374       0x3c ./SDK/CMSIS/system_MK64F12.o
+                0x00001374                SystemInit
+ .text.getNext  0x000013b0       0x84 ./source/Queue.o
+                0x000013b0                getNext
+ .text.put      0x00001434       0xa6 ./source/Queue.o
+                0x00001434                put
+ .text.putArray
+                0x000014da       0x64 ./source/Queue.o
+                0x000014da                putArray
+ .text.getFillLevel
+                0x0000153e       0x36 ./source/Queue.o
+                0x0000153e                getFillLevel
+ .text.main     0x00001574       0x1a ./SDK/startup/main.o
+                0x00001574                main
+ .text.HardFault_Handler
+                0x0000158e       0x2c ./SDK/startup/semihost_hardfault.o
+                0x0000158e                HardFault_Handler
+ .text.DMA0_IRQHandler
+                0x000015ba        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015ba                DMA0_IRQHandler
+ .text.DMA1_IRQHandler
+                0x000015c2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015c2                DMA1_IRQHandler
+ .text.DMA2_IRQHandler
+                0x000015ca        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015ca                DMA2_IRQHandler
+ .text.DMA3_IRQHandler
+                0x000015d2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015d2                DMA3_IRQHandler
+ .text.DMA4_IRQHandler
+                0x000015da        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015da                DMA4_IRQHandler
+ .text.DMA5_IRQHandler
+                0x000015e2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015e2                DMA5_IRQHandler
+ .text.DMA6_IRQHandler
+                0x000015ea        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015ea                DMA6_IRQHandler
+ .text.DMA7_IRQHandler
+                0x000015f2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015f2                DMA7_IRQHandler
+ .text.DMA8_IRQHandler
+                0x000015fa        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000015fa                DMA8_IRQHandler
+ .text.DMA9_IRQHandler
+                0x00001602        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001602                DMA9_IRQHandler
+ .text.DMA10_IRQHandler
+                0x0000160a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000160a                DMA10_IRQHandler
+ .text.DMA11_IRQHandler
+                0x00001612        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001612                DMA11_IRQHandler
+ .text.DMA12_IRQHandler
+                0x0000161a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000161a                DMA12_IRQHandler
+ .text.DMA13_IRQHandler
+                0x00001622        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001622                DMA13_IRQHandler
+ .text.DMA14_IRQHandler
+                0x0000162a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000162a                DMA14_IRQHandler
+ .text.DMA15_IRQHandler
+                0x00001632        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001632                DMA15_IRQHandler
+ .text.DMA_Error_IRQHandler
+                0x0000163a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000163a                DMA_Error_IRQHandler
+ .text.MCM_IRQHandler
+                0x00001642        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001642                MCM_IRQHandler
+ .text.FTFE_IRQHandler
+                0x0000164a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000164a                FTFE_IRQHandler
+ .text.Read_Collision_IRQHandler
+                0x00001652        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001652                Read_Collision_IRQHandler
+ .text.LVD_LVW_IRQHandler
+                0x0000165a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000165a                LVD_LVW_IRQHandler
+ .text.LLWU_IRQHandler
+                0x00001662        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001662                LLWU_IRQHandler
+ .text.WDOG_EWM_IRQHandler
+                0x0000166a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000166a                WDOG_EWM_IRQHandler
+ .text.RNG_IRQHandler
+                0x00001672        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001672                RNG_IRQHandler
+ .text.I2C0_IRQHandler
+                0x0000167a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000167a                I2C0_IRQHandler
+ .text.I2C1_IRQHandler
+                0x00001682        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001682                I2C1_IRQHandler
+ .text.SPI1_IRQHandler
+                0x0000168a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000168a                SPI1_IRQHandler
+ .text.I2S0_Tx_IRQHandler
+                0x00001692        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001692                I2S0_Tx_IRQHandler
+ .text.I2S0_Rx_IRQHandler
+                0x0000169a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000169a                I2S0_Rx_IRQHandler
+ .text.UART0_LON_IRQHandler
+                0x000016a2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016a2                UART0_LON_IRQHandler
+ .text.UART0_ERR_IRQHandler
+                0x000016aa        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016aa                UART0_ERR_IRQHandler
+ .text.UART1_ERR_IRQHandler
+                0x000016b2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016b2                UART1_ERR_IRQHandler
+ .text.UART2_ERR_IRQHandler
+                0x000016ba        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016ba                UART2_ERR_IRQHandler
+ .text.UART3_ERR_IRQHandler
+                0x000016c2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016c2                UART3_ERR_IRQHandler
+ .text.ADC0_IRQHandler
+                0x000016ca        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016ca                ADC0_IRQHandler
+ .text.CMP0_IRQHandler
+                0x000016d2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016d2                CMP0_IRQHandler
+ .text.CMP1_IRQHandler
+                0x000016da        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016da                CMP1_IRQHandler
+ .text.FTM0_IRQHandler
+                0x000016e2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016e2                FTM0_IRQHandler
+ .text.FTM1_IRQHandler
+                0x000016ea        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016ea                FTM1_IRQHandler
+ .text.FTM2_IRQHandler
+                0x000016f2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016f2                FTM2_IRQHandler
+ .text.CMT_IRQHandler
+                0x000016fa        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000016fa                CMT_IRQHandler
+ .text.RTC_IRQHandler
+                0x00001702        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001702                RTC_IRQHandler
+ .text.RTC_Seconds_IRQHandler
+                0x0000170a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000170a                RTC_Seconds_IRQHandler
+ .text.PIT0_IRQHandler
+                0x00001712        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001712                PIT0_IRQHandler
+ .text.PIT1_IRQHandler
+                0x0000171a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000171a                PIT1_IRQHandler
+ .text.PIT2_IRQHandler
+                0x00001722        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001722                PIT2_IRQHandler
+ .text.PIT3_IRQHandler
+                0x0000172a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000172a                PIT3_IRQHandler
+ .text.PDB0_IRQHandler
+                0x00001732        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001732                PDB0_IRQHandler
+ .text.USB0_IRQHandler
+                0x0000173a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000173a                USB0_IRQHandler
+ .text.USBDCD_IRQHandler
+                0x00001742        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001742                USBDCD_IRQHandler
+ .text.Reserved71_IRQHandler
+                0x0000174a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000174a                Reserved71_IRQHandler
+ .text.DAC0_IRQHandler
+                0x00001752        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001752                DAC0_IRQHandler
+ .text.MCG_IRQHandler
+                0x0000175a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000175a                MCG_IRQHandler
+ .text.LPTMR0_IRQHandler
+                0x00001762        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001762                LPTMR0_IRQHandler
+ .text.SWI_IRQHandler
+                0x0000176a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000176a                SWI_IRQHandler
+ .text.SPI2_IRQHandler
+                0x00001772        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001772                SPI2_IRQHandler
+ .text.UART4_ERR_IRQHandler
+                0x0000177a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000177a                UART4_ERR_IRQHandler
+ .text.UART5_RX_TX_IRQHandler
+                0x00001782        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001782                UART5_RX_TX_IRQHandler
+ .text.UART5_ERR_IRQHandler
+                0x0000178a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000178a                UART5_ERR_IRQHandler
+ .text.CMP2_IRQHandler
+                0x00001792        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001792                CMP2_IRQHandler
+ .text.FTM3_IRQHandler
+                0x0000179a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000179a                FTM3_IRQHandler
+ .text.DAC1_IRQHandler
+                0x000017a2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017a2                DAC1_IRQHandler
+ .text.ADC1_IRQHandler
+                0x000017aa        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017aa                ADC1_IRQHandler
+ .text.I2C2_IRQHandler
+                0x000017b2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017b2                I2C2_IRQHandler
+ .text.CAN0_ORed_Message_buffer_IRQHandler
+                0x000017ba        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017ba                CAN0_ORed_Message_buffer_IRQHandler
+ .text.CAN0_Bus_Off_IRQHandler
+                0x000017c2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017c2                CAN0_Bus_Off_IRQHandler
+ .text.CAN0_Error_IRQHandler
+                0x000017ca        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017ca                CAN0_Error_IRQHandler
+ .text.CAN0_Tx_Warning_IRQHandler
+                0x000017d2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017d2                CAN0_Tx_Warning_IRQHandler
+ .text.CAN0_Rx_Warning_IRQHandler
+                0x000017da        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017da                CAN0_Rx_Warning_IRQHandler
+ .text.CAN0_Wake_Up_IRQHandler
+                0x000017e2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017e2                CAN0_Wake_Up_IRQHandler
+ .text.SDHC_IRQHandler
+                0x000017ea        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017ea                SDHC_IRQHandler
+ .text.ENET_1588_Timer_IRQHandler
+                0x000017f2        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017f2                ENET_1588_Timer_IRQHandler
+ .text.ENET_Transmit_IRQHandler
+                0x000017fa        0x8 ./SDK/startup/startup_mk64f12.o
+                0x000017fa                ENET_Transmit_IRQHandler
+ .text.ENET_Receive_IRQHandler
+                0x00001802        0x8 ./SDK/startup/startup_mk64f12.o
+                0x00001802                ENET_Receive_IRQHandler
+ .text.ENET_Error_IRQHandler
+                0x0000180a        0x8 ./SDK/startup/startup_mk64f12.o
+                0x0000180a                ENET_Error_IRQHandler
+ .text.SystemInitHook
+                0x00001812        0xe ./SDK/CMSIS/system_MK64F12.o
+                0x00001812                SystemInitHook
+ *(SORT_BY_ALIGNMENT(.rodata) SORT_BY_ALIGNMENT(.rodata.*) SORT_BY_ALIGNMENT(.constdata) SORT_BY_ALIGNMENT(.constdata.*))
+ .rodata.UARTs  0x00001820       0x18 ./source/uart.o
+ .rodata.UARTs_IRQ
+                0x00001838        0x6 ./source/uart.o
+ *fill*         0x0000183e        0x2 ff
+ .rodata.PORTs  0x00001840       0x14 ./source/uart.o
+ .rodata.PINs   0x00001854        0xa ./source/uart.o
+ *fill*         0x0000185e        0x2 ff
+ .rodata.TxQueues
+                0x00001860        0x8 ./source/uart.o
+ .rodata.RxQueues
+                0x00001868        0x8 ./source/uart.o
+                0x00001870                . = ALIGN (0x8)
+
+.glue_7         0x00001870        0x0
+ .glue_7        0x00001870        0x0 linker stubs
+
+.glue_7t        0x00001870        0x0
+ .glue_7t       0x00001870        0x0 linker stubs
+
+.vfp11_veneer   0x00001870        0x0
+ .vfp11_veneer  0x00001870        0x0 linker stubs
+
+.v4_bx          0x00001870        0x0
+ .v4_bx         0x00001870        0x0 linker stubs
+
+.iplt           0x00001870        0x0
+ .iplt          0x00001870        0x0 ./source/App.o
+
+.rel.dyn        0x00001870        0x0
+ .rel.iplt      0x00001870        0x0 ./source/App.o
+
+.ARM.extab
+ *(SORT_BY_ALIGNMENT(.ARM.extab*) SORT_BY_ALIGNMENT(.gnu.linkonce.armextab.*))
+                0x00001870                __exidx_start = .
+
+.ARM.exidx
+ *(SORT_BY_ALIGNMENT(.ARM.exidx*) SORT_BY_ALIGNMENT(.gnu.linkonce.armexidx.*))
+                0x00001870                __exidx_end = .
+                0x00001870                _etext = .
+
+.m_usb_data
+ *(SORT_BY_ALIGNMENT(m_usb_bdt))
+
+.data_RAM2      0x1fff0000        0x0 load address 0x00001870
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(SORT_BY_ALIGNMENT(.ramfunc.$RAM2))
+ *(SORT_BY_ALIGNMENT(.ramfunc.$SRAM_LOWER))
+ *(SORT_BY_ALIGNMENT(.data.$RAM2*))
+ *(SORT_BY_ALIGNMENT(.data.$SRAM_LOWER*))
+                0x1fff0000                . = ALIGN (0x8)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.data_RAM3      0x14000000        0x0 load address 0x00001870
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM3, .)
+ *(SORT_BY_ALIGNMENT(.ramfunc.$RAM3))
+ *(SORT_BY_ALIGNMENT(.ramfunc.$FLEX_RAM))
+ *(SORT_BY_ALIGNMENT(.data.$RAM3*))
+ *(SORT_BY_ALIGNMENT(.data.$FLEX_RAM*))
+                0x14000000                . = ALIGN (0x8)
+                [!provide]                PROVIDE (__end_data_RAM3, .)
+
+.uninit_RESERVED
+                0x20000000        0x0
+ *(SORT_BY_ALIGNMENT(.bss.$RESERVED*))
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _end_uninit_RESERVED = .
+
+.data           0x20000000     0x17c0 load address 0x00001870
+ FILL mask 0xff
+                0x20000000                _data = .
+ *(SORT_BY_ALIGNMENT(vtable))
+ *(SORT_BY_ALIGNMENT(.ramfunc*))
+ *(SORT_BY_ALIGNMENT(.data*))
+ .data.config   0x20000000        0xc ./source/App.o
+                0x20000000                config
+ .data.config2  0x2000000c        0xc ./source/App.o
+                0x2000000c                config2
+ .data.RX0queue
+                0x20000018      0x3f0 ./source/spi.o
+ .data.TX0queue
+                0x20000408      0x3f0 ./source/spi.o
+ .data.RX0queue
+                0x200007f8      0x3f0 ./source/uart.o
+ .data.TX0queue
+                0x20000be8      0x3f0 ./source/uart.o
+ .data.RX1queue
+                0x20000fd8      0x3f0 ./source/uart.o
+ .data.TX1queue
+                0x200013c8      0x3f0 ./source/uart.o
+ .data.data2.5017
+                0x200017b8        0x1 ./source/App.o
+ .data.id.6975  0x200017b9        0x1 ./source/uart.o
+ .data.id.6989  0x200017ba        0x1 ./source/uart.o
+ .data.id.7003  0x200017bb        0x1 ./source/uart.o
+ .data.id.7017  0x200017bc        0x1 ./source/uart.o
+                0x200017c0                . = ALIGN (0x8)
+ *fill*         0x200017bd        0x3 ff
+                0x200017c0                _edata = .
+
+.igot.plt       0x200017c0        0x0 load address 0x00003030
+ .igot.plt      0x200017c0        0x0 ./source/App.o
+
+.bss_RAM2       0x1fff0000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(SORT_BY_ALIGNMENT(.bss.$RAM2*))
+ *(SORT_BY_ALIGNMENT(.bss.$SRAM_LOWER*))
+                0x1fff0000                . = ALIGN ((. != 0x0)?0x8:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss_RAM3       0x14000000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM3, .)
+ *(SORT_BY_ALIGNMENT(.bss.$RAM3*))
+ *(SORT_BY_ALIGNMENT(.bss.$FLEX_RAM*))
+                0x14000000                . = ALIGN ((. != 0x0)?0x8:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM3, .)
+
+.bss            0x200017c0      0x290
+                0x200017c0                _bss = .
+ *(SORT_BY_ALIGNMENT(.bss*))
+ .bss.PORTA_CBs
+                0x200017c0       0x80 ./source/gpio.o
+ .bss.PORTB_CBs
+                0x20001840       0x80 ./source/gpio.o
+ .bss.PORTC_CBs
+                0x200018c0       0x80 ./source/gpio.o
+ .bss.PORTD_CBs
+                0x20001940       0x80 ./source/gpio.o
+ .bss.PORTE_CBs
+                0x200019c0       0x80 ./source/gpio.o
+ .bss.__LDM_interruptDisableCount
+                0x20001a40        0x4 ./SDK/startup/hardware.o
+ .bss.status.6963
+                0x20001a44        0x1 ./source/uart.o
+ .bss.state.6962
+                0x20001a45        0x1 ./source/uart.o
+ .bss.id.6961   0x20001a46        0x1 ./source/uart.o
+ .bss.status.6977
+                0x20001a47        0x1 ./source/uart.o
+ .bss.state.6976
+                0x20001a48        0x1 ./source/uart.o
+ .bss.status.6991
+                0x20001a49        0x1 ./source/uart.o
+ .bss.state.6990
+                0x20001a4a        0x1 ./source/uart.o
+ .bss.status.7005
+                0x20001a4b        0x1 ./source/uart.o
+ .bss.state.7004
+                0x20001a4c        0x1 ./source/uart.o
+ .bss.status.7019
+                0x20001a4d        0x1 ./source/uart.o
+ .bss.state.7018
+                0x20001a4e        0x1 ./source/uart.o
+ *(SORT_BY_ALIGNMENT(COMMON))
+                0x20001a50                . = ALIGN (0x8)
+ *fill*         0x20001a4f        0x1 
+                0x20001a50                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x1fff0000        0x0
+ *(SORT_BY_ALIGNMENT(.noinit.$RAM2*))
+ *(SORT_BY_ALIGNMENT(.noinit.$SRAM_LOWER*))
+                0x1fff0000                . = ALIGN (0x8)
+
+.noinit_RAM3    0x14000000        0x0
+ *(SORT_BY_ALIGNMENT(.noinit.$RAM3*))
+ *(SORT_BY_ALIGNMENT(.noinit.$FLEX_RAM*))
+                0x14000000                . = ALIGN (0x8)
+
+.noinit         0x20001a50        0x0
+                0x20001a50                _noinit = .
+ *(SORT_BY_ALIGNMENT(.noinit*))
+                0x20001a50                . = ALIGN (0x8)
+                0x20001a50                _end_noinit = .
+                0x00001000                _HeapSize = 0x1000
+
+.heap           0x20001a50     0x1000
+                0x20001a50                _pvHeapStart = .
+                0x20002a50                . = (. + _HeapSize)
+ *fill*         0x20001a50     0x1000 
+                0x20002a50                . = ALIGN (0x8)
+                0x20002a50                _pvHeapLimit = .
+                0x00001000                _StackSize = 0x1000
+
+.heap2stackfill
+                0x20002a50     0x1000
+                0x20003a50                . = (. + _StackSize)
+ *fill*         0x20002a50     0x1000 
+
+.stack          0x2002f000        0x0
+                0x2002f000                _vStackBase = .
+                0x2002f000                . = ALIGN (0x8)
+                0x20030000                _vStackTop = (. + _StackSize)
+                0x00000000                _image_start = LOADADDR (.text)
+                0x00003030                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00003030                _image_size = (_image_end - _image_start)
+OUTPUT(TP2 - Comunicacion Serie.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x47bd
+ .debug_info    0x00000000      0x1b1 ./source/App.o
+ .debug_info    0x000001b1      0xab3 ./source/Queue.o
+ .debug_info    0x00000c64      0x87f ./source/gpio.o
+ .debug_info    0x000014e3      0xc5e ./source/spi.o
+ .debug_info    0x00002141     0x1069 ./source/uart.o
+ .debug_info    0x000031aa      0x675 ./SDK/startup/hardware.o
+ .debug_info    0x0000381f       0xb7 ./SDK/startup/main.o
+ .debug_info    0x000038d6       0x3b ./SDK/startup/semihost_hardfault.o
+ .debug_info    0x00003911      0x8b0 ./SDK/startup/startup_mk64f12.o
+ .debug_info    0x000041c1      0x5fc ./SDK/CMSIS/system_MK64F12.o
+
+.debug_abbrev   0x00000000      0xeda
+ .debug_abbrev  0x00000000       0xcb ./source/App.o
+ .debug_abbrev  0x000000cb      0x236 ./source/Queue.o
+ .debug_abbrev  0x00000301      0x227 ./source/gpio.o
+ .debug_abbrev  0x00000528      0x280 ./source/spi.o
+ .debug_abbrev  0x000007a8      0x2b3 ./source/uart.o
+ .debug_abbrev  0x00000a5b      0x138 ./SDK/startup/hardware.o
+ .debug_abbrev  0x00000b93       0x7d ./SDK/startup/main.o
+ .debug_abbrev  0x00000c10       0x2f ./SDK/startup/semihost_hardfault.o
+ .debug_abbrev  0x00000c3f      0x15c ./SDK/startup/startup_mk64f12.o
+ .debug_abbrev  0x00000d9b      0x13f ./SDK/CMSIS/system_MK64F12.o
+
+.debug_aranges  0x00000000      0x5a0
+ .debug_aranges
+                0x00000000       0x28 ./source/App.o
+ .debug_aranges
+                0x00000028       0x48 ./source/Queue.o
+ .debug_aranges
+                0x00000070       0x70 ./source/gpio.o
+ .debug_aranges
+                0x000000e0       0x58 ./source/spi.o
+ .debug_aranges
+                0x00000138       0x98 ./source/uart.o
+ .debug_aranges
+                0x000001d0       0x30 ./SDK/startup/hardware.o
+ .debug_aranges
+                0x00000200       0x20 ./SDK/startup/main.o
+ .debug_aranges
+                0x00000220       0x20 ./SDK/startup/semihost_hardfault.o
+ .debug_aranges
+                0x00000240      0x330 ./SDK/startup/startup_mk64f12.o
+ .debug_aranges
+                0x00000570       0x30 ./SDK/CMSIS/system_MK64F12.o
+
+.debug_ranges   0x00000000      0x500
+ .debug_ranges  0x00000000       0x18 ./source/App.o
+ .debug_ranges  0x00000018       0x38 ./source/Queue.o
+ .debug_ranges  0x00000050       0x60 ./source/gpio.o
+ .debug_ranges  0x000000b0       0x48 ./source/spi.o
+ .debug_ranges  0x000000f8       0x88 ./source/uart.o
+ .debug_ranges  0x00000180       0x20 ./SDK/startup/hardware.o
+ .debug_ranges  0x000001a0       0x10 ./SDK/startup/main.o
+ .debug_ranges  0x000001b0       0x10 ./SDK/startup/semihost_hardfault.o
+ .debug_ranges  0x000001c0      0x320 ./SDK/startup/startup_mk64f12.o
+ .debug_ranges  0x000004e0       0x20 ./SDK/CMSIS/system_MK64F12.o
+
+.debug_macro    0x00000000    0x114a6
+ .debug_macro   0x00000000       0x61 ./source/App.o
+ .debug_macro   0x00000061       0x4c ./source/App.o
+ .debug_macro   0x000000ad       0x34 ./source/App.o
+ .debug_macro   0x000000e1       0x10 ./source/App.o
+ .debug_macro   0x000000f1       0x10 ./source/App.o
+ .debug_macro   0x00000101      0x122 ./source/Queue.o
+ .debug_macro   0x00000223       0x17 ./source/Queue.o
+ .debug_macro   0x0000023a       0x22 ./source/Queue.o
+ .debug_macro   0x0000025c       0x52 ./source/Queue.o
+ .debug_macro   0x000002ae       0x8d ./source/Queue.o
+ .debug_macro   0x0000033b       0x35 ./source/Queue.o
+ .debug_macro   0x00000370       0x9c ./source/Queue.o
+ .debug_macro   0x0000040c       0x16 ./source/Queue.o
+ .debug_macro   0x00000422      0x10e ./source/Queue.o
+ .debug_macro   0x00000530       0x8d ./source/Queue.o
+ .debug_macro   0x000005bd       0x57 ./source/Queue.o
+ .debug_macro   0x00000614       0x58 ./source/Queue.o
+ .debug_macro   0x0000066c       0x1f ./source/Queue.o
+ .debug_macro   0x0000068b       0x43 ./source/Queue.o
+ .debug_macro   0x000006ce       0x20 ./source/Queue.o
+ .debug_macro   0x000006ee      0x18e ./source/Queue.o
+ .debug_macro   0x0000087c      0x330 ./source/Queue.o
+ .debug_macro   0x00000bac       0x16 ./source/Queue.o
+ .debug_macro   0x00000bc2       0x29 ./source/Queue.o
+ .debug_macro   0x00000beb       0x8f ./source/gpio.o
+ .debug_macro   0x00000c7a       0x5c ./source/gpio.o
+ .debug_macro   0x00000cd6       0x1c ./source/gpio.o
+ .debug_macro   0x00000cf2       0x22 ./source/gpio.o
+ .debug_macro   0x00000d14       0xdf ./source/gpio.o
+ .debug_macro   0x00000df3      0xecf ./source/gpio.o
+ .debug_macro   0x00001cc2       0x48 ./source/gpio.o
+ .debug_macro   0x00001d0a     0xe07b ./source/gpio.o
+ .debug_macro   0x0000fd85       0x52 ./source/gpio.o
+ .debug_macro   0x0000fdd7       0x5e ./source/gpio.o
+ .debug_macro   0x0000fe35       0xdd ./source/spi.o
+ .debug_macro   0x0000ff12       0x10 ./source/spi.o
+ .debug_macro   0x0000ff22     0x122b ./source/spi.o
+ .debug_macro   0x0001114d       0x16 ./source/spi.o
+ .debug_macro   0x00011163       0x58 ./source/spi.o
+ .debug_macro   0x000111bb       0x10 ./source/spi.o
+ .debug_macro   0x000111cb       0xe9 ./source/uart.o
+ .debug_macro   0x000112b4       0x9c ./SDK/startup/hardware.o
+ .debug_macro   0x00011350       0x9c ./SDK/startup/main.o
+ .debug_macro   0x000113ec       0x11 ./SDK/startup/semihost_hardfault.o
+ .debug_macro   0x000113fd       0x29 ./SDK/startup/startup_mk64f12.o
+ .debug_macro   0x00011426       0x80 ./SDK/CMSIS/system_MK64F12.o
+
+.debug_line     0x00000000     0x1a18
+ .debug_line    0x00000000       0xf2 ./source/App.o
+ .debug_line    0x000000f2      0x35f ./source/Queue.o
+ .debug_line    0x00000451      0x33e ./source/gpio.o
+ .debug_line    0x0000078f      0x26a ./source/spi.o
+ .debug_line    0x000009f9      0x3de ./source/uart.o
+ .debug_line    0x00000dd7      0x1d4 ./SDK/startup/hardware.o
+ .debug_line    0x00000fab      0x175 ./SDK/startup/main.o
+ .debug_line    0x00001120       0x59 ./SDK/startup/semihost_hardfault.o
+ .debug_line    0x00001179      0x6d8 ./SDK/startup/startup_mk64f12.o
+ .debug_line    0x00001851      0x1c7 ./SDK/CMSIS/system_MK64F12.o
+
+.debug_str      0x00000000    0x7be7d
+ .debug_str     0x00000000     0x39e5 ./source/App.o
+                               0x3b54 (size before relaxing)
+ .debug_str     0x000039e5     0x33f5 ./source/Queue.o
+                               0x6d38 (size before relaxing)
+ .debug_str     0x00006dda    0x6d612 ./source/gpio.o
+                              0x7100f (size before relaxing)
+ .debug_str     0x000743ec     0x6e80 ./source/spi.o
+                              0x77d42 (size before relaxing)
+ .debug_str     0x0007b26c      0x28d ./source/uart.o
+                              0x77e86 (size before relaxing)
+ .debug_str     0x0007b4f9      0x16f ./SDK/startup/hardware.o
+                              0x77251 (size before relaxing)
+ .debug_str     0x0007b668       0x1b ./SDK/startup/main.o
+                              0x77025 (size before relaxing)
+ .debug_str     0x0007b683       0x36 ./SDK/startup/semihost_hardfault.o
+                               0x2d82 (size before relaxing)
+ .debug_str     0x0007b6b9      0x762 ./SDK/startup/startup_mk64f12.o
+                               0x35f0 (size before relaxing)
+ .debug_str     0x0007be1b       0x62 ./SDK/CMSIS/system_MK64F12.o
+                              0x77160 (size before relaxing)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./source/App.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./source/Queue.o
+ .comment       0x0000007e       0x7f ./source/gpio.o
+ .comment       0x0000007e       0x7f ./source/spi.o
+ .comment       0x0000007e       0x7f ./source/uart.o
+ .comment       0x0000007e       0x7f ./SDK/startup/hardware.o
+ .comment       0x0000007e       0x7f ./SDK/startup/main.o
+ .comment       0x0000007e       0x7f ./SDK/startup/semihost_hardfault.o
+ .comment       0x0000007e       0x7f ./SDK/startup/startup_mk64f12.o
+ .comment       0x0000007e       0x7f ./SDK/CMSIS/system_MK64F12.o
+
+.ARM.attributes
+                0x00000000       0x39
+ .ARM.attributes
+                0x00000000       0x39 ./source/App.o
+ .ARM.attributes
+                0x00000039       0x39 ./source/Queue.o
+ .ARM.attributes
+                0x00000072       0x39 ./source/gpio.o
+ .ARM.attributes
+                0x000000ab       0x39 ./source/spi.o
+ .ARM.attributes
+                0x000000e4       0x39 ./source/uart.o
+ .ARM.attributes
+                0x0000011d       0x39 ./SDK/startup/hardware.o
+ .ARM.attributes
+                0x00000156       0x39 ./SDK/startup/main.o
+ .ARM.attributes
+                0x0000018f       0x39 ./SDK/startup/semihost_hardfault.o
+ .ARM.attributes
+                0x000001c8       0x39 ./SDK/startup/startup_mk64f12.o
+ .ARM.attributes
+                0x00000201       0x39 ./SDK/CMSIS/system_MK64F12.o
+
+.debug_frame    0x00000000     0x10bc
+ .debug_frame   0x00000000       0x48 ./source/App.o
+ .debug_frame   0x00000048       0xfc ./source/Queue.o
+ .debug_frame   0x00000144      0x1b0 ./source/gpio.o
+ .debug_frame   0x000002f4      0x12c ./source/spi.o
+ .debug_frame   0x00000420      0x268 ./source/uart.o
+ .debug_frame   0x00000688       0x70 ./SDK/startup/hardware.o
+ .debug_frame   0x000006f8       0x2c ./SDK/startup/main.o
+ .debug_frame   0x00000724       0x20 ./SDK/startup/semihost_hardfault.o
+ .debug_frame   0x00000744      0x904 ./SDK/startup/startup_mk64f12.o
+ .debug_frame   0x00001048       0x74 ./SDK/CMSIS/system_MK64F12.o

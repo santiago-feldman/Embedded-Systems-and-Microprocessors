@@ -1,0 +1,1 @@
+Dentro de la carpeta source se encuentra el gateway configurado, y la página de thingspeak es la siguiente: https://thingspeak.com/channels/2360590

@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MK64FN1M0xxx12" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_14 http://mcuxpresso.nxp.com/XSD/mex_configuration_14.xsd" uuid="653a3239-b8d7-4df1-adf5-6631fa5ee2ef" version="14" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MK64FN1M0xxx12</processor>
+      <package>MK64FN1M0VLL12</package>
+      <board>FRDM-K64F</board>
+      <mcu_data>ksdk2_0</mcu_data>
+      <cores selected="core0">
+         <core name="Cortex-M4F" id="core0" description="M4 core"/>
+      </cores>
+      <description>Configuration imported from Player</description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+      <update_include_paths>true</update_include_paths>
+      <generate_registers_defines>false</generate_registers_defines>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="14.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/pin_mux.c" update_enabled="true"/>
+            <file path="board/pin_mux.h" update_enabled="true"/>
+         </generated_project_files>
+         <pins_profile>
+            <processor_version>14.0.0</processor_version>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>core0</coreID>
+                  <enableClock>true</enableClock>
+               </options>
+               <dependencies>
+                  <dependency resourceType="Peripheral" resourceId="UART0" description="Peripheral UART0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="SDHC" description="Peripheral SDHC is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="DAC0" description="Peripheral DAC0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.port" description="Pins initialization requires the PORT Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <pins>
+                  <pin peripheral="UART0" signal="RX" pin_num="62" pin_signal="PTB16/SPI1_SOUT/UART0_RX/FTM_CLKIN0/FB_AD17/EWM_IN"/>
+                  <pin peripheral="UART0" signal="TX" pin_num="63" pin_signal="PTB17/SPI1_SIN/UART0_TX/FTM_CLKIN1/FB_AD16/EWM_OUT_b"/>
+                  <pin peripheral="SDHC" signal="DATA, 1" pin_num="1" pin_signal="ADC1_SE4a/PTE0/SPI1_PCS1/UART1_TX/SDHC0_D1/TRACE_CLKOUT/I2C1_SDA/RTC_CLKOUT">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SDHC" signal="DATA, 0" pin_num="2" pin_signal="ADC1_SE5a/PTE1/LLWU_P0/SPI1_SOUT/UART1_RX/SDHC0_D0/TRACE_D3/I2C1_SCL/SPI1_SIN">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SDHC" signal="DCLK" pin_num="3" pin_signal="ADC0_DP2/ADC1_SE6a/PTE2/LLWU_P1/SPI1_SCK/UART1_CTS_b/SDHC0_DCLK/TRACE_D2">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SDHC" signal="CMD" pin_num="4" pin_signal="ADC0_DM2/ADC1_SE7a/PTE3/SPI1_SIN/UART1_RTS_b/SDHC0_CMD/TRACE_D1/SPI1_SOUT">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SDHC" signal="DATA, 3" pin_num="5" pin_signal="PTE4/LLWU_P2/SPI1_PCS0/UART3_TX/SDHC0_D3/TRACE_D0">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SDHC" signal="DATA, 2" pin_num="6" pin_signal="PTE5/SPI1_PCS2/UART3_RX/SDHC0_D2/FTM3_CH0">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="high"/>
+                        <pin_feature name="pull_select" value="up"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="GPIOE" signal="GPIO, 6" pin_num="7" pin_signal="PTE6/SPI1_PCS3/UART3_CTS_b/I2S0_MCLK/FTM3_CH1/USB_SOF_OUT">
+                     <pin_features>
+                        <pin_feature name="slew_rate" value="fast"/>
+                        <pin_feature name="open_drain" value="disable"/>
+                        <pin_feature name="drive_strength" value="low"/>
+                        <pin_feature name="pull_select" value="down"/>
+                        <pin_feature name="pull_enable" value="enable"/>
+                        <pin_feature name="passive_filter" value="disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="DAC0" signal="OUT" pin_num="27" pin_signal="DAC0_OUT/CMP1_IN3/ADC0_SE23"/>
+                  <pin peripheral="DAC0" signal="REF_1" pin_num="26" pin_signal="VREF_OUT/CMP1_IN5/CMP0_IN5/ADC1_SE18"/>
+                  <pin peripheral="DAC0" signal="REF_2" pin_num="22" pin_signal="VDDA"/>
+                  <pin peripheral="DAC0" signal="TRG" pin_num="" pin_signal="PDB0_DAC0_Trigger"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <clocks name="Clocks" version="12.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/clock_config.c" update_enabled="true"/>
+            <file path="board/clock_config.h" update_enabled="true"/>
+         </generated_project_files>
+         <clocks_profile>
+            <processor_version>14.0.0</processor_version>
+         </clocks_profile>
+         <clock_configurations>
+            <clock_configuration name="BOARD_BootClockRUN" id_prefix="" prefix_user_defined="false">
+               <description></description>
+               <options/>
+               <dependencies>
+                  <dependency resourceType="PinSignal" resourceId="OSC.EXTAL0" description="&apos;EXTAL0&apos; (Pins tool id: OSC.EXTAL0, Clocks tool id: OSC.EXTAL0) needs to be routed" problem_level="1" source="Clocks:BOARD_BootClockRUN">
+                     <feature name="routed" evaluation="">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="PinSignal" resourceId="OSC.EXTAL0" description="&apos;EXTAL0&apos; (Pins tool id: OSC.EXTAL0, Clocks tool id: OSC.EXTAL0) needs to have &apos;INPUT&apos; direction" problem_level="1" source="Clocks:BOARD_BootClockRUN">
+                     <feature name="direction" evaluation="">
+                        <data>INPUT</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Clocks initialization requires the COMMON Driver in the project." problem_level="2" source="Clocks:BOARD_BootClockRUN">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <clock_sources>
+                  <clock_source id="IRC48M.IRC48M.outFreq" value="48 MHz" locked="false" enabled="false"/>
+                  <clock_source id="OSC.OSC.outFreq" value="50 MHz" locked="false" enabled="true"/>
+               </clock_sources>
+               <clock_outputs>
+                  <clock_output id="Bus_clock.outFreq" value="50 MHz" locked="true" accuracy="0.001"/>
+                  <clock_output id="Core_clock.outFreq" value="100 MHz" locked="false" accuracy=""/>
+                  <clock_output id="ERCLK32K.outFreq" value="1 kHz" locked="false" accuracy=""/>
+                  <clock_output id="Flash_clock.outFreq" value="25 MHz" locked="false" accuracy=""/>
+                  <clock_output id="FlexBus_clock.outFreq" value="50 MHz" locked="true" accuracy="0.001"/>
+                  <clock_output id="IRC48MCLK.outFreq" value="48 MHz" locked="false" accuracy=""/>
+                  <clock_output id="LPO_clock.outFreq" value="1 kHz" locked="false" accuracy=""/>
+                  <clock_output id="MCGFFCLK.outFreq" value="195.3125/6 kHz" locked="false" accuracy=""/>
+                  <clock_output id="OSCERCLK.outFreq" value="50 MHz" locked="false" accuracy=""/>
+                  <clock_output id="PLLFLLCLK.outFreq" value="48 MHz" locked="false" accuracy=""/>
+                  <clock_output id="System_clock.outFreq" value="100 MHz" locked="false" accuracy=""/>
+               </clock_outputs>
+               <clock_settings>
+                  <setting id="MCGMode" value="PEE" locked="false"/>
+                  <setting id="MCG.FCRDIV.scale" value="4" locked="true"/>
+                  <setting id="MCG.FRDIV.scale" value="1536" locked="true"/>
+                  <setting id="MCG.IREFS.sel" value="MCG.FRDIV" locked="false"/>
+                  <setting id="MCG.PLLS.sel" value="MCG.PLL" locked="false"/>
+                  <setting id="MCG.PRDIV.scale" value="16" locked="true"/>
+                  <setting id="MCG.VDIV.scale" value="32" locked="true"/>
+                  <setting id="MCG_C2_RANGE0_CFG" value="Very_high" locked="false"/>
+                  <setting id="MCG_C2_RANGE0_FRDIV_CFG" value="Very_high" locked="false"/>
+                  <setting id="OSC_CR_ERCLKEN_CFG" value="Enabled" locked="false"/>
+                  <setting id="RTCCLKOUTConfig" value="yes" locked="false"/>
+                  <setting id="RTC_CR_OSCE_CFG" value="Enabled" locked="false"/>
+                  <setting id="RTC_CR_OSC_CAP_LOAD_CFG" value="SC10PF" locked="false"/>
+                  <setting id="SIM.OSC32KSEL.sel" value="PMC.LPOCLK" locked="false"/>
+                  <setting id="SIM.OUTDIV2.scale" value="2" locked="true"/>
+                  <setting id="SIM.OUTDIV3.scale" value="2" locked="true"/>
+                  <setting id="SIM.OUTDIV4.scale" value="4" locked="true"/>
+                  <setting id="SIM.PLLFLLSEL.sel" value="IRC48M.IRC48MCLK" locked="false"/>
+                  <setting id="SIM.TRACECLKSEL.sel" value="MCG.MCGOUTCLK" locked="false"/>
+                  <setting id="SIM.USBDIV.scale" value="5" locked="false"/>
+                  <setting id="SIM.USBFRAC.scale" value="2" locked="false"/>
+               </clock_settings>
+               <called_from_default_init>true</called_from_default_init>
+            </clock_configuration>
+            <clock_configuration name="BOARD_BootClockVLPR" id_prefix="" prefix_user_defined="false">
+               <description></description>
+               <options/>
+               <dependencies>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Clocks initialization requires the COMMON Driver in the project." problem_level="2" source="Clocks:BOARD_BootClockVLPR">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.smc" description="Clocks initialization requires the SMC Driver in the project." problem_level="2" source="Clocks:BOARD_BootClockVLPR">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <clock_sources>
+                  <clock_source id="OSC.OSC.outFreq" value="50 MHz" locked="false" enabled="false"/>
+               </clock_sources>
+               <clock_outputs>
+                  <clock_output id="Bus_clock.outFreq" value="4 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Core_clock.outFreq" value="4 MHz" locked="true" accuracy="0.001"/>
+                  <clock_output id="Flash_clock.outFreq" value="800 kHz" locked="false" accuracy=""/>
+                  <clock_output id="FlexBus_clock.outFreq" value="4 MHz" locked="false" accuracy=""/>
+                  <clock_output id="LPO_clock.outFreq" value="1 kHz" locked="false" accuracy=""/>
+                  <clock_output id="MCGIRCLK.outFreq" value="4 MHz" locked="false" accuracy=""/>
+                  <clock_output id="System_clock.outFreq" value="4 MHz" locked="false" accuracy=""/>
+               </clock_outputs>
+               <clock_settings>
+                  <setting id="MCGMode" value="BLPI" locked="false"/>
+                  <setting id="powerMode" value="VLPR" locked="false"/>
+                  <setting id="MCG.CLKS.sel" value="MCG.IRCS" locked="false"/>
+                  <setting id="MCG.FCRDIV.scale" value="1" locked="false"/>
+                  <setting id="MCG.FRDIV.scale" value="32" locked="false"/>
+                  <setting id="MCG.IRCS.sel" value="MCG.FCRDIV" locked="false"/>
+                  <setting id="MCG_C1_IRCLKEN_CFG" value="Enabled" locked="false"/>
+                  <setting id="MCG_C2_RANGE0_CFG" value="Very_high" locked="false"/>
+                  <setting id="MCG_C2_RANGE0_FRDIV_CFG" value="Very_high" locked="false"/>
+                  <setting id="RTC_CR_OSCE_CFG" value="Enabled" locked="false"/>
+                  <setting id="RTC_CR_OSC_CAP_LOAD_CFG" value="SC10PF" locked="false"/>
+                  <setting id="SIM.OSC32KSEL.sel" value="RTC.RTC32KCLK" locked="false"/>
+                  <setting id="SIM.OUTDIV3.scale" value="1" locked="false"/>
+                  <setting id="SIM.OUTDIV4.scale" value="5" locked="false"/>
+                  <setting id="SIM.PLLFLLSEL.sel" value="IRC48M.IRC48MCLK" locked="false"/>
+                  <setting id="SIM.RTCCLKOUTSEL.sel" value="RTC.RTC32KCLK" locked="false"/>
+               </clock_settings>
+               <called_from_default_init>false</called_from_default_init>
+            </clock_configuration>
+         </clock_configurations>
+      </clocks>
+      <dcdx name="DCDx" version="3.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
+         <dcdx_profile>
+            <processor_version>N/A</processor_version>
+         </dcdx_profile>
+         <dcdx_configurations/>
+      </dcdx>
+      <periphs name="Peripherals" version="13.0" enabled="true" update_project_code="true">
+         <dependencies>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.dac" description="DAC Driver is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.dac" description="An unsupported version of the DAC Driver in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="equivalent">
+                  <data type="Version">2.0.1</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="middleware.fatfs" description="FAT File System stack is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="middleware.fatfs" description="An unsupported version of the FAT File System stack in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="greaterOrEqual">
+                  <data type="Version">0.14.0</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.edma" description="EDMA Driver is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.edma" description="An unsupported version of the EDMA Driver in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="greaterOrEqual">
+                  <data type="Version">2.4.0</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.pit" description="PIT Driver is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.pit" description="An unsupported version of the PIT Driver in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="compatible">
+                  <data type="Version">2.0.3</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="utility.debug_console" description="Utility debug_console is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="utility.debug_console" description="An unsupported version of the Utility debug_console in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="equivalent">
+                  <data type="Version">1.0.0</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.uart" description="UART Driver is not found in the toolchain/IDE project. The project will not compile!" problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data type="Boolean">true</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="SWComponent" resourceId="platform.drivers.uart" description="An unsupported version of the UART Driver in the toolchain/IDE project. Required: ${required_value}, actual: ${actual_value}. The project might not compile correctly." problem_level="1" source="Peripherals">
+               <feature name="version" evaluation="equivalent">
+                  <data type="Version">2.5.1</data>
+               </feature>
+            </dependency>
+            <dependency resourceType="Tool" resourceId="Clocks" description="The Clocks tool is required by the Peripherals tool, but it is disabled." problem_level="2" source="Peripherals">
+               <feature name="enabled" evaluation="equal">
+                  <data>true</data>
+               </feature>
+            </dependency>
+         </dependencies>
+         <generated_project_files>
+            <file path="board/peripherals.c" update_enabled="true"/>
+            <file path="board/peripherals.h" update_enabled="true"/>
+            <file path="source/ffconf.h" update_enabled="true"/>
+            <file path="utilities/fsl_debug_console_conf.h" update_enabled="true"/>
+         </generated_project_files>
+         <peripherals_profile>
+            <processor_version>14.0.0</processor_version>
+            <ignored_component_migration_offer>
+               <component>uart</component>
+               <component>edma</component>
+            </ignored_component_migration_offer>
+         </peripherals_profile>
+         <functional_groups>
+            <functional_group name="BOARD_InitPeripherals" uuid="9496ff68-fbe8-4243-ae2a-46321a563f27" called_from_default_init="true" id_prefix="" core="core0">
+               <description></description>
+               <options/>
+               <dependencies>
+                  <dependency resourceType="PeripheralUnifiedSignal" resourceId="DAC0.dac_ref_2" description="DACREF_2 signal not routed for DAC0" problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="routed" evaluation="">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="PeripheralUnifiedSignal" resourceId="DAC0.dac_out" description="Output signal not routed for DAC0" problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="routed" evaluation="equal">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="middleware.fatfs.sd" description="The fsl_sd_disk driver is missing in the project  (required for FATFS)." problem_level="2" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="enabled" evaluation="equal">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.dmamux" description="The fsl_dmamux driver is missing in the project  (required for the eDMA)." problem_level="2" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="enabled" evaluation="equal">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.dmamux" description="The compatible version of the fsl_dmamux driver is not available in the project  (required for the eDMA)." problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="version" evaluation="compatible">
+                        <data type="Version">2.0.2</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="ClockOutput" resourceId="Bus_clock" description="Bus clock is inactive." problem_level="2" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="frequency" evaluation="greaterThan">
+                        <data type="Frequency" unit="Hz">0</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="ClockOutput" resourceId="System_clock" description="System clock is inactive." problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="frequency" evaluation="greaterThan">
+                        <data type="Frequency" unit="Hz">0</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="PeripheralUnifiedSignal" resourceId="UART0.uart_tx" description="Signal TX is not routed." problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="routed" evaluation="equal">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="PeripheralUnifiedSignal" resourceId="UART0.uart_rx" description="Signal RX is not routed." problem_level="1" source="Peripherals:BOARD_InitPeripherals">
+                     <feature name="routed" evaluation="equal">
+                        <data type="Boolean">true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <instances>
+                  <instance name="NVIC" uuid="d98da378-cbd6-4379-a610-c77216b19caa" type="nvic" type_id="nvic_57b5eef3774cc60acaede6f5b8bddc67" mode="general" peripheral="NVIC" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="nvic">
+                        <array name="interrupt_table">
+                           <struct name="0"/>
+                           <struct name="1"/>
+                        </array>
+                        <array name="interrupts"/>
+                     </config_set>
+                  </instance>
+                  <instance name="DAC0" uuid="d782daa0-558c-46eb-a87f-2712cadf005e" type="dac" type_id="dac_a54f338a6fa6fd273bc89d61f5a3b85e" mode="basic" peripheral="DAC0" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="fsl_dac">
+                        <struct name="dac_config">
+                           <setting name="referenceVoltageSource" value="kDAC_ReferenceVoltageSourceVref2"/>
+                           <setting name="enableLowPowerMode" value="false"/>
+                        </struct>
+                        <setting name="dac_enable" value="true"/>
+                        <setting name="dac_value" value="2048"/>
+                     </config_set>
+                  </instance>
+                  <instance name="FATFS" uuid="29fb2ddf-95fb-4f8e-a13a-771f5a29bbea" type="fatfs" type_id="fatfs_2f85acf758668258920f70258052a088" mode="general" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="init_config">
+                        <struct name="initConfig">
+                           <setting name="initPartitionsStr" value="false"/>
+                           <array name="multiplePartitions">
+                              <struct name="0">
+                                 <setting name="Volume" value="0"/>
+                                 <setting name="Partition" value="autoDetect"/>
+                              </struct>
+                              <struct name="1">
+                                 <setting name="Volume" value="0"/>
+                                 <setting name="Partition" value="autoDetect"/>
+                              </struct>
+                           </array>
+                           <setting name="enablePhysicalLayerInit" value="false"/>
+                           <struct name="diskConfig">
+                              <setting name="initFunctionID" value="FATFS_DiskInit"/>
+                           </struct>
+                           <setting name="initResultObject" value="false"/>
+                           <setting name="resultName" value="FATFS_Result"/>
+                           <array name="fatfsObjects"/>
+                           <array name="filObjects"/>
+                           <array name="filInfoObjects"/>
+                           <array name="dirObjects"/>
+                        </struct>
+                     </config_set>
+                     <config_set name="ff_config">
+                        <setting name="revisionID" value="rev14_3"/>
+                        <setting name="MSDKadaptation" value="SD_DISK_ENABLE"/>
+                        <struct name="functionConfig">
+                           <setting name="FF_FS_READONLY" value="true"/>
+                           <setting name="FF_FS_MINIMIZE" value="level1"/>
+                           <setting name="FF_USE_FIND" value="disableDirRead"/>
+                           <setting name="FF_USE_MKFS" value="false"/>
+                           <setting name="FF_USE_FASTSEEK" value="true"/>
+                           <setting name="FF_USE_EXPAND" value="false"/>
+                           <setting name="FF_USE_CHMOD" value="false"/>
+                           <setting name="FF_USE_LABEL" value="false"/>
+                           <setting name="FF_USE_FORWARD" value="false"/>
+                           <setting name="FF_USE_STRFUNC" value="enableWithoutConversion"/>
+                           <setting name="FF_PRINT_LLI" value="false"/>
+                           <setting name="FF_PRINT_FLOAT" value="enableFloatSeparator"/>
+                        </struct>
+                        <struct name="namespaceConfig">
+                           <setting name="FF_USE_LFN" value="enableLfnStatic"/>
+                           <setting name="FF_MAX_LFN" value="255"/>
+                           <setting name="FF_LFN_BUF" value="LFNID"/>
+                           <setting name="FF_SFN_BUF" value="SFNID"/>
+                           <setting name="FF_LFN_UNICODE" value="ansiOEM"/>
+                           <setting name="FF_STRF_ENCODE" value="UTF16LE"/>
+                           <setting name="FF_CODE_PAGE" value="cpUS"/>
+                           <setting name="FF_FS_RPATH" value="enableRP2"/>
+                        </struct>
+                        <struct name="driveConfig">
+                           <setting name="FF_VOLUMES" value="6"/>
+                           <setting name="FF_STR_VOLUME_ID" value="numericId"/>
+                           <array name="volumes">
+                              <struct name="0">
+                                 <setting name="volumeStr" value="RAM"/>
+                              </struct>
+                              <struct name="1">
+                                 <setting name="volumeStr" value="NAND"/>
+                              </struct>
+                              <struct name="2">
+                                 <setting name="volumeStr" value="CF"/>
+                              </struct>
+                              <struct name="3">
+                                 <setting name="volumeStr" value="SD"/>
+                              </struct>
+                              <struct name="4">
+                                 <setting name="volumeStr" value="SD2"/>
+                              </struct>
+                              <struct name="5">
+                                 <setting name="volumeStr" value="USB"/>
+                              </struct>
+                           </array>
+                           <setting name="FF_MULTI_PARTITION" value="false"/>
+                           <setting name="FF_MIN_SS" value="value512"/>
+                           <setting name="FF_MAX_SS" value="value512"/>
+                           <setting name="FF_LBA64" value="false"/>
+                           <setting name="FF_MIN_GPT" value="0x10000000"/>
+                           <setting name="FF_USE_TRIM" value="false"/>
+                        </struct>
+                        <struct name="systemConfig">
+                           <setting name="FF_FS_TINY" value="false"/>
+                           <setting name="FF_FS_EXFAT" value="false"/>
+                           <setting name="FF_FS_NORTC" value="false"/>
+                           <setting name="FF_NORTC_MON" value="1"/>
+                           <setting name="FF_NORTC_MDAY" value="1"/>
+                           <setting name="FF_NORTC_YEAR" value="2020"/>
+                           <set name="FF_FS_NOFSINFO">
+                              <selected/>
+                           </set>
+                           <setting name="FF_FS_LOCK" value="0"/>
+                           <setting name="FF_FS_REENTRANT" value="false"/>
+                           <setting name="FF_FS_TIMEOUT" value="1000"/>
+                           <setting name="FF_SYNC_t" value="HANDLE"/>
+                           <setting name="includeOS" value="false"/>
+                           <setting name="headerFileName" value="somertos.h"/>
+                        </struct>
+                        <struct name="fatfs_codegenerator"/>
+                     </config_set>
+                  </instance>
+                  <instance name="DMA" uuid="c8381b54-fe70-471c-8605-c6b8052d2658" type="edma" type_id="edma_46976c94302ab714c0d335f519487c8a" mode="basic" peripheral="DMA" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="fsl_edma">
+                        <struct name="common_settings">
+                           <setting name="enableMinorLoopMapping" value="false"/>
+                           <setting name="enableContinuousLinkMode" value="false"/>
+                           <setting name="enableHaltOnError" value="true"/>
+                           <setting name="ERCA" value="fixedPriority"/>
+                           <setting name="enableDebugMode" value="false"/>
+                        </struct>
+                        <array name="dma_table">
+                           <struct name="0"/>
+                           <struct name="1"/>
+                        </array>
+                        <array name="edma_channels">
+                           <struct name="0">
+                              <setting name="apiMode" value="trans"/>
+                              <struct name="edma_channel">
+                                 <setting name="channel_prefix_id" value="CH3"/>
+                                 <setting name="uid" value="1706581251721"/>
+                                 <setting name="eDMAn" value="3"/>
+                                 <setting name="eDMA_source" value="kDmaRequestMux0AlwaysOn58"/>
+                                 <setting name="enableTriggerPIT" value="true"/>
+                                 <setting name="init_channel_priority" value="false"/>
+                                 <struct name="edma_channel_Preemption">
+                                    <setting name="enableChannelPreemption" value="false"/>
+                                    <setting name="enablePreemptAbility" value="false"/>
+                                    <setting name="channelPriority" value="0"/>
+                                 </struct>
+                                 <setting name="enable_custom_name" value="false"/>
+                              </struct>
+                              <setting name="enableChannelRequest" value="false"/>
+                              <setting name="tcd_pool_enable" value="true"/>
+                              <struct name="tcd_settings">
+                                 <setting name="tcd_size" value="2"/>
+                                 <setting name="tcd_memory_custom_id" value="false"/>
+                              </struct>
+                              <array name="transfer_config">
+                                 <struct name="0">
+                                    <setting name="uid" value="1706581251724"/>
+                                    <setting name="tcdID" value="CH0_PING"/>
+                                    <setting name="ssize" value="kEDMA_TransferSize2Bytes"/>
+                                    <setting name="saddr_expr" value="pingBuffer"/>
+                                    <setting name="saddr_def" value="extern int16_t pingBuffer[1152];"/>
+                                    <setting name="soff" value="2"/>
+                                    <setting name="soff_def" value=""/>
+                                    <setting name="dsize" value="kEDMA_TransferSize2Bytes"/>
+                                    <setting name="daddr_expr" value="&amp;DAC0-&gt;DAT[0].DATL"/>
+                                    <setting name="daddr_def" value=""/>
+                                    <setting name="doff" value="0"/>
+                                    <setting name="doff_def" value=""/>
+                                    <setting name="nbytes" value="2"/>
+                                    <setting name="transferBytes" value="2304"/>
+                                    <setting name="submitTransfer" value="false"/>
+                                 </struct>
+                                 <struct name="1">
+                                    <setting name="uid" value="1706581251726"/>
+                                    <setting name="tcdID" value="CH0_PONG"/>
+                                    <setting name="ssize" value="kEDMA_TransferSize2Bytes"/>
+                                    <setting name="saddr_expr" value="pongBuffer"/>
+                                    <setting name="saddr_def" value="extern int16_t pongBuffer[1152];"/>
+                                    <setting name="soff" value="2"/>
+                                    <setting name="soff_def" value=""/>
+                                    <setting name="dsize" value="kEDMA_TransferSize2Bytes"/>
+                                    <setting name="daddr_expr" value="&amp;DAC0-&gt;DAT[0].DATL"/>
+                                    <setting name="daddr_def" value=""/>
+                                    <setting name="doff" value="0"/>
+                                    <setting name="doff_def" value=""/>
+                                    <setting name="nbytes" value="2"/>
+                                    <setting name="transferBytes" value="2304"/>
+                                    <setting name="submitTransfer" value="false"/>
+                                 </struct>
+                              </array>
+                              <setting name="no_init_uid" value="1706581251728"/>
+                              <setting name="init_callback" value="true"/>
+                              <setting name="callback_function" value="DMA_callback"/>
+                              <setting name="callback_user_data" value=""/>
+                              <set name="channel_enabled_interrupts">
+                                 <selected/>
+                              </set>
+                              <struct name="interrupt_channel">
+                                 <setting name="IRQn" value="DMA3_IRQn"/>
+                                 <setting name="enable_priority" value="false"/>
+                                 <setting name="priority" value="0"/>
+                              </struct>
+                           </struct>
+                           <struct name="1">
+                              <setting name="apiMode" value="trans"/>
+                              <struct name="edma_channel">
+                                 <setting name="channel_prefix_id" value="CH0"/>
+                                 <setting name="uid" value="1706585616750"/>
+                                 <setting name="eDMAn" value="0"/>
+                                 <setting name="eDMA_source" value="kDmaRequestMux0FTM0Channel0"/>
+                                 <setting name="enableTriggerPIT" value="false"/>
+                                 <setting name="init_channel_priority" value="false"/>
+                                 <struct name="edma_channel_Preemption">
+                                    <setting name="enableChannelPreemption" value="false"/>
+                                    <setting name="enablePreemptAbility" value="false"/>
+                                    <setting name="channelPriority" value="0"/>
+                                 </struct>
+                                 <setting name="enable_custom_name" value="false"/>
+                              </struct>
+                              <setting name="enableChannelRequest" value="false"/>
+                              <setting name="tcd_pool_enable" value="false"/>
+                              <struct name="tcd_settings">
+                                 <setting name="tcd_size" value="1"/>
+                                 <setting name="tcd_memory_custom_id" value="false"/>
+                              </struct>
+                              <array name="transfer_config"/>
+                              <setting name="no_init_uid" value="1706585616758"/>
+                              <setting name="init_callback" value="true"/>
+                              <setting name="callback_function" value="DMA_callback_CH0"/>
+                              <setting name="callback_user_data" value=""/>
+                              <set name="channel_enabled_interrupts">
+                                 <selected/>
+                              </set>
+                              <struct name="interrupt_channel">
+                                 <setting name="IRQn" value="DMA0_IRQn"/>
+                                 <setting name="enable_priority" value="false"/>
+                                 <setting name="priority" value="0"/>
+                              </struct>
+                           </struct>
+                        </array>
+                        <struct name="errInterruptConfig">
+                           <setting name="enableErrInterrupt" value="false"/>
+                           <struct name="errorInterrupt">
+                              <setting name="IRQn" value="DMA_Error_IRQn"/>
+                              <setting name="enable_interrrupt" value="enabled"/>
+                              <setting name="enable_priority" value="false"/>
+                              <setting name="priority" value="0"/>
+                              <setting name="enable_custom_name" value="false"/>
+                           </struct>
+                        </struct>
+                     </config_set>
+                  </instance>
+                  <instance name="PIT" uuid="fd3c0272-4a81-4eda-9f11-74e0ce245c29" type="pit" type_id="pit_ab54f91356454adb874dafbb69e655fd" mode="LPTMR_GENERAL" peripheral="PIT" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="fsl_pit">
+                        <setting name="enableRunInDebug" value="false"/>
+                        <struct name="timingConfig">
+                           <setting name="clockSource" value="BusInterfaceClock"/>
+                           <setting name="clockSourceFreq" value="ClocksTool_DefaultInit"/>
+                        </struct>
+                        <array name="channels">
+                           <struct name="0">
+                              <setting name="channel_id" value="CHANNEL_3"/>
+                              <setting name="channelNumber" value="3"/>
+                              <setting name="enableChain" value="false"/>
+                              <setting name="timerPeriod" value="44.1kHz"/>
+                              <setting name="startTimer" value="false"/>
+                              <setting name="enableInterrupt" value="false"/>
+                              <struct name="interrupt">
+                                 <setting name="IRQn" value="PIT0_IRQn"/>
+                                 <setting name="enable_interrrupt" value="enabled"/>
+                                 <setting name="enable_priority" value="false"/>
+                                 <setting name="priority" value="0"/>
+                                 <setting name="enable_custom_name" value="false"/>
+                              </struct>
+                           </struct>
+                        </array>
+                     </config_set>
+                  </instance>
+                  <instance name="DebugConsole" uuid="e5c89bdb-e6f8-469e-b72d-3a65b7437226" type="debug_console" type_id="debug_console_51864e4f3ac859dae7b603e07bc4ae33" mode="general" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="fsl_debug_console">
+                        <struct name="config">
+                           <setting name="SDK_DEBUGCONSOLE" value="DEBUGCONSOLE_REDIRECT_TO_TOOLCHAIN"/>
+                           <setting name="SDK_DEBUGCONSOLE_UART" value="semihost"/>
+                           <setting name="DEBUG_CONSOLE_RX_ENABLE" value="true"/>
+                           <setting name="DEBUG_CONSOLE_PRINTF_MAX_LOG_LEN" value="128"/>
+                           <setting name="DEBUG_CONSOLE_SCANF_MAX_LOG_LEN" value="20"/>
+                           <setting name="DEBUG_CONSOLE_ENABLE_ECHO" value="false"/>
+                           <setting name="PRINTF_FLOAT_ENABLE" value="false"/>
+                           <setting name="SCANF_FLOAT_ENABLE" value="false"/>
+                           <setting name="PRINTF_ADVANCED_ENABLE" value="false"/>
+                           <setting name="SCANF_ADVANCED_ENABLE" value="false"/>
+                           <setting name="DEBUG_CONSOLE_TRANSFER_NON_BLOCKING" value="true"/>
+                           <setting name="DEBUG_CONSOLE_TRANSMIT_BUFFER_LEN" value="512"/>
+                           <setting name="DEBUG_CONSOLE_RECEIVE_BUFFER_LEN" value="1024"/>
+                           <setting name="DEBUG_CONSOLE_TX_RELIABLE_ENABLE" value="true"/>
+                           <setting name="DEBUG_CONSOLE_DISABLE_RTOS_SYNCHRONIZATION" value="false"/>
+                        </struct>
+                        <struct name="debug_console_codegenerator"/>
+                     </config_set>
+                  </instance>
+                  <instance name="UART0" uuid="afd7797b-f684-4620-854a-78a554d1121b" type="uart" type_id="uart_9b45c456566d03f79ecfe90751c10bb4" mode="polling" peripheral="UART0" enabled="true" comment="" custom_name_enabled="false" editing_lock="false">
+                     <config_set name="uartConfig_t" quick_selection="QuickSelection1">
+                        <struct name="uartConfig">
+                           <setting name="clockSource" value="BusInterfaceClock"/>
+                           <setting name="clockSourceFreq" value="GetFreq"/>
+                           <setting name="baudRate_Bps" value="115200"/>
+                           <setting name="parityMode" value="kUART_ParityDisabled"/>
+                           <setting name="dataBitsCount" value="kUART_EightDataBits"/>
+                           <setting name="stopBitCount" value="kUART_OneStopBit"/>
+                           <setting name="enableMatchAddress1" value="false"/>
+                           <setting name="matchAddress1" value="0"/>
+                           <setting name="enableMatchAddress2" value="false"/>
+                           <setting name="matchAddress2" value="0"/>
+                           <setting name="txFifoWatermark" value="0"/>
+                           <setting name="rxFifoWatermark" value="1"/>
+                           <setting name="idleType" value="kUART_IdleTypeStartBit"/>
+                           <setting name="enableTx" value="true"/>
+                           <setting name="enableRx" value="true"/>
+                        </struct>
+                     </config_set>
+                  </instance>
+               </instances>
+            </functional_group>
+         </functional_groups>
+         <components>
+            <component name="system" uuid="f1a8fed9-f173-4233-922b-7eac3316679b" type_id="system_54b53072540eeeb8f8e9343e71f28176">
+               <config_set_global name="global_system_definitions">
+                  <setting name="user_definitions" value=""/>
+                  <setting name="user_includes" value=""/>
+               </config_set_global>
+            </component>
+            <component name="generic_enet" uuid="2a98a8ce-d5b0-4556-8be3-a74ceafde029" type_id="generic_enet_74db5c914f0ddbe47d86af40cb77a619">
+               <config_set_global name="global_enet"/>
+            </component>
+            <component name="uart_cmsis_common" uuid="fb9b369d-a7f0-4f69-8831-2a782b4bb52b" type_id="uart_cmsis_common_9cb8e302497aa696fdbb5a4fd622c2a8">
+               <config_set_global name="global_USART_CMSIS_common" quick_selection="default"/>
+            </component>
+            <component name="generic_can" uuid="213333f6-3f1d-4627-9dc1-83e1657c51e5" type_id="generic_can_1bfdd78b1af214566c1f23cf6a582d80">
+               <config_set_global name="global_can"/>
+            </component>
+            <component name="gpio_adapter_common" uuid="8661d946-c2a6-4f6c-8f32-b0e2abcf622c" type_id="gpio_adapter_common_57579b9ac814fe26bf95df0a384c36b6">
+               <config_set_global name="global_gpio_adapter_common" quick_selection="default"/>
+            </component>
+            <component name="generic_uart" uuid="869eb2bb-54da-4f3f-acaa-4a9124260e05" type_id="generic_uart_8cae00565451cf2346eb1b8c624e73a6">
+               <config_set_global name="global_uart"/>
+            </component>
+            <component name="msg" uuid="0f223a71-4440-469b-b96e-332ef31728cf" type_id="msg_6e2baaf3b97dbeef01c0043275f9a0e7">
+               <config_set_global name="global_messages"/>
+            </component>
+         </components>
+      </periphs>
+      <tee name="TEE" version="5.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
+         <tee_profile>
+            <processor_version>N/A</processor_version>
+         </tee_profile>
+      </tee>
+   </tools>
+</configuration>
